@@ -1,0 +1,163 @@
+.article-main {
+  background-color: #fbf9f899;
+  max-width: 1600px;
+  margin: 2rem auto;
+  padding: 2rem 0;
+  position: relative;
+}
+.article-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 96%;
+  margin: auto;
+}
+.article-top-heading {
+  color: #393939;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.article-top-collection {
+  cursor: pointer;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #393939;
+  font-size: 1rem;
+}
+.article-top-collection:hover {
+  color: #007aff;
+}
+.card-detail {
+  background-color: #f9f7f5;
+  border-radius: 10px;
+  min-height: 23rem;
+  max-height: 23rem;
+}
+
+.card-container {
+  margin: 0 0.5rem;
+}
+.card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.card-about-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 12px;
+}
+.card-pricing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 12px;
+}
+.card-like {
+  font-size: 2.5rem;
+  color: #696969;
+}
+.card-heading {
+  background-color: white;
+  color: #111928;
+  padding: 4px 12px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.card-image-box {
+  display: flex;
+  justify-self: center;
+}
+.card-image-box-hover {
+  display: flex;
+  justify-self: center;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+.card-image {
+  width: 14rem;
+  height: 14rem;
+}
+.card-popup {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 4px 8px;
+}
+.card-popup-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  width: 100%;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+}
+.card-popup-button {
+  padding: 12px 16px;
+  color: white;
+  border-radius: 6px;
+  background-color: rgb(224, 55, 139);
+  cursor: pointer;
+}
+.card-popup-heading {
+  font-size: 0.9rem;
+}
+.card-pricing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-about-title {
+  color: #313131;
+  font-size: 1.5rem;
+  font-family: Playfair Display !important;
+  letter-spacing: 1px;
+}
+.card-about-total {
+  color: #313131;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: flex-start;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.card-about-per-piece {
+  color: #9c9c9c;
+}
+.card-about-total-piece {
+  background-color: #f1f4f6;
+  padding: 8px 16px;
+  border-radius: 2rem;
+  color: #546a7d;
+  font-size: 14px;
+}
+.carousel-container {
+  padding-top: 2rem;
+  margin: auto;
+  width: 100%;
+}
+.carousel-button-left {
+  position: absolute;
+  cursor: pointer;
+  left: 0;
+  background-color: #5cd2dd;
+  z-index: 2;
+  padding: 0.5rem 0.8rem;
+  top: 10rem;
+}
+.carousel-button-right {
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+  background-color: #5cd2dd;
+  z-index: 2;
+  padding: 0.5rem 0.8rem;
+  top: 10rem;
+}

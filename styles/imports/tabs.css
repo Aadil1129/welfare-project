@@ -1,0 +1,38 @@
+.tabs-main {
+  border-bottom: 1px solid #e5e7eb;
+}
+.tabs-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 0.8rem;
+  width: 96%;
+  margin: auto;
+  max-width: 1600px;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.tabs-value {
+  padding: 1rem 0;
+  text-transform: uppercase;
+  font-size: 15px;
+  cursor: pointer;
+  /* display: block; */
+  color: #6b7280;
+  font-weight: bold;
+  width: fit-content;
+  white-space: nowrap;
+}
+.tabs-selected {
+  padding: 1rem 0;
+  text-transform: uppercase;
+  font-size: 15px;
+  cursor: pointer;
+  /* display: block; */
+  font-weight: bold;
+  width: fit-content;
+  white-space: nowrap;
+  border-bottom: 3px solid #0093d0;
+  color: #0093d0;
+}

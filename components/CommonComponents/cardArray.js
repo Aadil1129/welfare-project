@@ -1,0 +1,68 @@
+import tableCarousel from "../../public/images/tableCarousel.png";
+const CardArray = [
+  {
+    name: "Art de la table1",
+    title: "Title1",
+    image: tableCarousel,
+    total_price: "0",
+    per_piece_price: "0,35",
+    total_piece: "20",
+  },
+  {
+    name: "Art de la table2",
+    title: "Title2",
+    image: tableCarousel,
+    total_price: "0",
+    per_piece_price: "0,35",
+    total_piece: "20",
+  },
+  {
+    name: "Art de la table3",
+    title: "Title3",
+    image: tableCarousel,
+    total_price: "0",
+    per_piece_price: "0,35",
+    total_piece: "20",
+  },
+  {
+    name: "Art de la table4",
+    title: "Title4",
+    image: tableCarousel,
+    total_price: "0",
+    per_piece_price: "0,35",
+    total_piece: "20",
+  },
+  {
+    name: "Art de la table5",
+    title: "Title5",
+    image: tableCarousel,
+    total_price: "0",
+    per_piece_price: "0,35",
+    total_piece: "20",
+  },
+  {
+    name: "Art de la table6",
+    title: "Title6",
+    image: tableCarousel,
+    total_price: "0",
+    per_piece_price: "0,35",
+    total_piece: "20",
+  },
+  {
+    name: "Art de la table7",
+    title: "Title7",
+    image: tableCarousel,
+    total_price: "0",
+    per_piece_price: "0,35",
+    total_piece: "20",
+  },
+  {
+    name: "Art de la table8",
+    title: "Title8",
+    image: tableCarousel,
+    total_price: "0",
+    per_piece_price: "0,35",
+    total_piece: "20",
+  },
+];
+export default CardArray;

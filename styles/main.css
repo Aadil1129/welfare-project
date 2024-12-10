@@ -1,0 +1,11 @@
+body {
+  font-family: "Montserrat";
+  background-color: white;
+}
+@import "./imports/header.css";
+@import "./imports/tabs.css";
+@import "./imports/homeComponents.css";
+@import "./imports/articlesSimilairs.css";
+@import "./imports/interestedProduct.css";
+@import "./imports/takeCareEverything.css";
+@import "./imports/footer.css";

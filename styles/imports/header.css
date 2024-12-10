@@ -1,0 +1,145 @@
+.header-container {
+  max-width: 1600px;
+  margin: auto;
+}
+.fix-header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background: white;
+  width: 100%;
+  margin: auto;
+}
+.header-container-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+.header-container-title {
+  color: #231f20;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+}
+.header-container-display {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 96%;
+  padding-top: 1.4rem;
+  margin: auto;
+}
+.header-container-first-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 55%;
+}
+.header-container-input-section {
+  background-color: #f9fafb;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+}
+.header-container-input-section-focus {
+  background-color: #f9fafb;
+  border: 1px solid #377bc4;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+}
+.header-container-input {
+  border: none;
+  outline: none;
+  background-color: #f9fafb;
+  border-radius: 0.5rem;
+  color: #667482;
+  cursor: pointer;
+  font-family: Montserrat !important;
+  width: 100%;
+  font-size: 1rem;
+  padding: 16px 18px;
+}
+.header-container-input::placeholder {
+  font-family: Montserrat !important;
+  font-size: 1rem;
+}
+.header-container-search-icon-box {
+  padding: 10px 10px;
+  border-radius: 0 5px 5px 0;
+}
+.header-container-search-icon-box-focus {
+  padding: 10px 10px;
+  border-radius: 0 5px 5px 0;
+  background-color: #377bc4;
+}
+.header-container-search-icon {
+  color: #003349;
+  font-size: 1.8rem;
+}
+.header-container-search-icon-focus {
+  color: white;
+  font-size: 1.8rem;
+}
+.header-container-second-flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.header-container-second-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.header-container-second-title {
+  font-weight: bold;
+  color: #3b4347;
+}
+.header-container-second-icon {
+  font-size: 1.3rem;
+  color: #8f9ba0;
+}
+.header-container-panier-button {
+  background-color: #0093d0;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 10px 14px;
+}
+.header-container-panier-icon {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.header-container-profile-icon {
+  font-size: 2.7rem;
+  color: #eaedee;
+}
+.header-container-fr-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.header-container-fr-title {
+  font-weight: bold;
+  color: #3b4347;
+}
+.header-container-fr-icon {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1f2a37;
+}
+.header-container-second-total {
+  padding: 4px 10px;
+  font-weight: 600;
+  background-color: #cad2d566;
+  color: #242d30;
+  font-size: 13px;
+  border-radius: 4rem;
+}

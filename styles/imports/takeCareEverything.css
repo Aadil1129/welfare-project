@@ -1,0 +1,133 @@
+.takecare-main {
+  max-width: 1600px;
+  margin: 2rem auto;
+  padding-top: 2rem;
+  position: relative;
+}
+.takecare-top {
+  padding: 4rem;
+  background-image: linear-gradient(rgba(238, 65, 151, 0.04), rgba(255, 255, 255, 0.04));
+}
+.takecare-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: rgba(57, 57, 57, 1);
+}
+.takecare-desc {
+  font-size: 14px;
+  text-align: center;
+  color: #9c9c9c;
+  margin: 0.8rem auto;
+}
+.takecare-service-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.2rem;
+  gap: 4rem;
+  position: relative;
+}
+.takecare-service-first {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  justify-content: center;
+  align-items: center;
+}
+.takecare-service-heading {
+  color: #393939;
+  font-weight: bold;
+  font-size: 20px;
+}
+.takecare-service-desc {
+  color: #9c9c9c;
+  font-size: 14px;
+}
+.takecare-service-image {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.takecare-service-image::before {
+  position: absolute;
+  content: "";
+  display: block;
+  right: 4rem;
+  border-top: 1px solid #9c9c9c; /* Adds the line */
+  width: 8rem; /* Line length */
+  margin-right: 1rem; /* Spacing between the line and the image */
+}
+.takecare-service-image-last {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.takecare-service-image-last::before {
+  position: absolute;
+  content: "";
+  display: block;
+  right: 4rem;
+  border-top: 1px solid #9c9c9c; /* Adds the line */
+  width: 10rem; /* Line length */
+  margin-right: 1rem; /* Spacing between the line and the image */
+}
+.takecare-frame-box {
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+  margin: 2rem auto;
+  gap: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 2.5rem;
+}
+.takecare-frame-detail {
+  background-color: #ffeef7;
+  border-radius: 20px;
+  padding: 1.5rem;
+}
+.takecare-frame-detail-heading {
+  font-size: 2rem;
+  color: #393939;
+}
+.takecare-frame-detail-desc {
+  color: #bda2b0;
+  font-size: 14px;
+  margin: 1rem auto;
+  line-height: 24px;
+}
+.takecare-frame-detail-form {
+  display: flex;
+  align-items: center;
+  margin-top: 2.5rem;
+  gap: 1rem;
+}
+.takecare-frame-detail-input {
+  padding: 20px;
+  outline: rgb(199, 70, 192);
+  font-family: Montserrat !important;
+  background-color: white;
+  border: 1px solid #f5e1eb;
+  width: 100%;
+  border-radius: 8px;
+}
+.takecare-frame-detail-input::placeholder {
+  font-family: Montserrat !important;
+}
+.takecare-frame-detail-button {
+  padding: 16px 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #5cd2dd;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.takecare-frame-detail-error {
+  color: red;
+  font-size: 14px;
+  margin-left: 1rem;
+}

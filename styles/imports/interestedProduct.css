@@ -1,0 +1,35 @@
+.interested-main {
+  max-width: 1600px;
+  margin: 2rem auto;
+  padding-top: 2rem;
+  position: relative;
+}
+.interested-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 96%;
+  margin: auto;
+}
+.interested-top-heading {
+  color: #393939;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.interested-top-collection {
+  cursor: pointer;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #393939;
+  font-size: 1rem;
+}
+.interested-top-collection:hover {
+  color: #007aff;
+}
+.interested-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 98%;
+  margin: 2rem auto;
+}
