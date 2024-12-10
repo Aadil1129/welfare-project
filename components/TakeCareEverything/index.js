@@ -39,7 +39,7 @@ export default function TakeCareEverything() {
     <div className="takecare-main">
       <div className="takecare-top">
         <div className="takecare-heading">
-          On s’occupe de <span style={{ color: "#5CD2DD", fontWeight: "bold" }}>tout</span>
+          On s'occupe de <span style={{ color: "#5CD2DD", fontWeight: "bold" }}>tout</span>
         </div>
         <div className="takecare-desc">
           Office ipsum you must be muted. It meeting commitment busy pain.
@@ -70,8 +70,8 @@ export default function TakeCareEverything() {
             <div className="takecare-service-image-last">
               <Image src={Bus} alt="tray" />
             </div>
-            <div className="takecare-service-heading">Transport & Enlèvement</div>
-            <div className="takecare-service-desc">On s’occupe de tout.</div>
+            <div className="takecare-service-heading">Transport & Enlevement</div>
+            <div className="takecare-service-desc">On s'occupe de tout.</div>
           </div>
         </div>
       </div>
@@ -79,7 +79,7 @@ export default function TakeCareEverything() {
         <Image src={Frame} alt="frame" className="takecare-frame" />
         <div className="takecare-frame-detail">
           <div className="takecare-frame-detail-heading">
-            S’inscrire & économiser <span style={{ color: "#5CD2DD" }}>10%</span>
+            S'inscrire & economiser <span style={{ color: "#5CD2DD" }}>10%</span>
           </div>
           <div className="takecare-frame-detail-desc">
             Office ipsum you must be muted. Synergize helicopter prioritize anyway job due harvest

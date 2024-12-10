@@ -12,7 +12,7 @@ export default function InterestedProduct() {
       </div>
       <div className="interested-card">
         {ThreeCardShaw?.map((value, index) => (
-          <CommonCard cardData={value} index={index} type="interested" />
+          <CommonCard key={index} cardData={value} type="interested" />
         ))}
       </div>
     </div>

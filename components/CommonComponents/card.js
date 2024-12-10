@@ -6,7 +6,7 @@ import { FaMinus } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
 import { LuEuro } from "react-icons/lu";
 
-export default function CommonCard({ cardData, index, type }) {
+export default function CommonCard({ cardData, type }) {
   const [isHovered, setIsHovered] = useState(false);
   const [cardCount, setCardCount] = useState(0);
   const [isSelected, setIsSelected] = useState(false);
@@ -40,7 +40,6 @@ export default function CommonCard({ cardData, index, type }) {
   return (
     <div
       className="card-container"
-      key={index}
       style={{ width: type === "interested" ? "100%" : "auto" }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
