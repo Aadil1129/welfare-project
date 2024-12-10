@@ -68,7 +68,7 @@ export default function Carousel() {
   return (
     <Slider {...settings}>
       {CardArray?.map((value, index) => (
-        <CommonCard cardData={value} index={index} type="carousel" />
+        <CommonCard cardData={value} key={index} type="carousel" />
       ))}
     </Slider>
   );
