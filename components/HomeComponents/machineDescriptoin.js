@@ -16,13 +16,13 @@ export default function MachineDescription() {
       <div className="machinDescription-text">
         <div className="machinDescription-heading">Description produit</div>
         <div className="machinDescription-desc">
-          Festi vous propose a la location un/une "Jewel - grand couteau/10pc" pour votre evenement
-          et ce des 0,35 / piece HTVA. Que ce soit pour votre mariage, une fete d'anniversaire ou du
-          personnel, ce produit a fait l'objet d'une selection rigoureuse par notre equipe. Il est
-          en location chez nous sous la reference "VAJGC". Nous sommes a votre disposition pour que
-          les evenements de nos clients, meme en last-minute, soient toujours une reussite. Vous
-          pourrez trouver tout une serie d'autre produit a louer de ce type dans la categorie "Art
-          de la Table".
+          Festi vous propose à la location une Jewel - grand couteau 10pc pour votre événement et ce
+          dès 0,35 pièce HTVA. Que ce soit pour votre mariage, une fête d'anniversaire ou du
+          personnel, ce produit a fait l'objet d'une sélection rigoureuse par notre équipe. Il est
+          en location chez nous sous la référence &quot;VAJGC&quot;. Nous sommes à votre disposition
+          pour que les événements de nos clients, même en last-minute, soient toujours une réussite.
+          Vous pourrez trouver toute une série d'autres produits à louer de ce type dans la
+          catégorie &quot;Art de la Table&quot;.
         </div>
       </div>
       <div className="description-todo">
@@ -38,8 +38,8 @@ export default function MachineDescription() {
           <div
             className={isSelected ? "description-todo-box-more-shaw" : "description-todo-box-more"}
           >
-            Festi vous propose a la location un/une "Jewel - grand couteau/10pc" pour votre
-            evenement
+            Festi vous propose à la location un/une &quot;Jewel - grand couteau/10pc&quot; pour
+            votre événement
           </div>
         </div>
         <div className="description-todo-box" onClick={toggleHeart1}>
@@ -56,7 +56,8 @@ export default function MachineDescription() {
               isSelected1 ? "description-todo-box-more-shaw1" : "description-todo-box-more1"
             }
           >
-            et ce des 0,35 / piece HTVA. Que ce soit pour votre mariage, une fete d'anniversaire
+            et ce dès 0,35 &frasl; pièce HTVA. Que ce soit pour votre mariage, une fête
+            d'anniversaire
           </div>
         </div>
       </div>

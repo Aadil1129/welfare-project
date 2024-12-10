@@ -39,10 +39,10 @@ export default function TakeCareEverything() {
     <div className="takecare-main">
       <div className="takecare-top">
         <div className="takecare-heading">
-          On s'occupe de <span style={{ color: "#5CD2DD", fontWeight: "bold" }}>tout</span>
+          On soccupe de <span style={{ color: "#5CD2DD", fontWeight: "bold" }}>tout</span>
         </div>
         <div className="takecare-desc">
-          Office ipsum you must be muted. It meeting commitment busy pain.
+          et ce dès 0,35 &frasl; pièce HTVA. Que ce soit pour votre mariage, une
         </div>
         <div className="takecare-service-flex">
           <div className="takecare-service-first">
@@ -70,8 +70,8 @@ export default function TakeCareEverything() {
             <div className="takecare-service-image-last">
               <Image src={Bus} alt="tray" />
             </div>
-            <div className="takecare-service-heading">Transport & Enlevement</div>
-            <div className="takecare-service-desc">On s'occupe de tout.</div>
+            <div className="takecare-service-heading">Transport Enlevent</div>
+            <div className="takecare-service-desc">On s'occur de tout</div>
           </div>
         </div>
       </div>
@@ -79,11 +79,11 @@ export default function TakeCareEverything() {
         <Image src={Frame} alt="frame" className="takecare-frame" />
         <div className="takecare-frame-detail">
           <div className="takecare-frame-detail-heading">
-            S'inscrire & economiser <span style={{ color: "#5CD2DD" }}>10%</span>
+            S'incrire economiser <span style={{ color: "#5CD2DD" }}>10%</span>
           </div>
           <div className="takecare-frame-detail-desc">
             Office ipsum you must be muted. Synergize helicopter prioritize anyway job due harvest
-            most opportunity didn't. Yet busy any meeting shark light marginalised 4-blocker
+            most opportunity didn&apos;t. Yet busy any meeting shark light marginalised 4-blocker
             message. Productize corporate nail caught synergy highlights lunch. Company another
             pushback items dear or any.
           </div>
@@ -98,7 +98,7 @@ export default function TakeCareEverything() {
               }}
             />
             <div className="takecare-frame-detail-button" onClick={handleSubmit}>
-              S’inscrire <IoMdArrowForward />
+              S'inscrire <IoMdArrowForward />
             </div>
           </div>
           <div className="takecare-frame-detail-error">{error}</div>
