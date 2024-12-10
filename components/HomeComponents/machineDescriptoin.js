@@ -16,13 +16,11 @@ export default function MachineDescription() {
       <div className="machinDescription-text">
         <div className="machinDescription-heading">Description produit</div>
         <div className="machinDescription-desc">
-          Festi vous propose à la location une Jewel - grand couteau 10pc pour votre événement et ce
-          dès 0,35 pièce HTVA. Que ce soit pour votre mariage, une fête d'anniversaire ou du
-          personnel, ce produit a fait l'objet d'une sélection rigoureuse par notre équipe. Il est
-          en location chez nous sous la référence &quot;VAJGC&quot;. Nous sommes à votre disposition
-          pour que les événements de nos clients, même en last-minute, soient toujours une réussite.
-          Vous pourrez trouver toute une série d'autres produits à louer de ce type dans la
-          catégorie &quot;Art de la Table&quot;.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+          been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+          a galley of type and scrambled it to make atype specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting, remaining essentially
+          unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
         </div>
       </div>
       <div className="description-todo">
@@ -38,8 +36,8 @@ export default function MachineDescription() {
           <div
             className={isSelected ? "description-todo-box-more-shaw" : "description-todo-box-more"}
           >
-            Festi vous propose à la location un/une &quot;Jewel - grand couteau/10pc&quot; pour
-            votre événement
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has
           </div>
         </div>
         <div className="description-todo-box" onClick={toggleHeart1}>
@@ -56,8 +54,7 @@ export default function MachineDescription() {
               isSelected1 ? "description-todo-box-more-shaw1" : "description-todo-box-more1"
             }
           >
-            et ce dès 0,35 &frasl; pièce HTVA. Que ce soit pour votre mariage, une fête
-            d'anniversaire
+            a galley of type and scrambled it to make atype specimen book. It has survived not only
           </div>
         </div>
       </div>
