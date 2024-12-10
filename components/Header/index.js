@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import Logo from "../../public/images/group.png";
+import Logo from "../../public/images/Group.png";
 import { CiSearch } from "react-icons/ci";
 import { BsLightbulb } from "react-icons/bs";
 import { CiHeart } from "react-icons/ci";
